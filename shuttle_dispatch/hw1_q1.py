@@ -255,8 +255,9 @@ def policy_improvement(cf, ch, gamma, max_cust_wating, theta):
 if __name__ == "__main__":
 	# V_t_enum_50 = enumeration(T=10, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
 	# # # print(V_t)
-	# # V_t_enum_500 = enumeration(T=500, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
-	# V_t,iter = value_iteration(cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
+	V_t_enum_10 = enumeration(T=10, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
+	V_t_enum_100 = enumeration(T=100, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
+	V_t,iter = value_iteration(cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
 	# print(V_t)
 	# print("Number of iterations for value iteration to converge:")
 	# print(iter)
@@ -268,10 +269,14 @@ if __name__ == "__main__":
 
 	# evaluate V of random policy
 
-	policy_improved, V_greedy = policy_improvement(cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
+	# policy_improved, V_greedy = policy_improvement(cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
+	# #
+	# V_random = policy_eval_function(policy=policy_random,cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
 	#
-	V_random = policy_eval_function(policy=policy_random,cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
-	#
-	plt.plot(range(0,201),V_random,'r')
-	plt.plot(range(0,201),V_greedy,'g')
-	plt.show()
+	# plt.plot(range(0,201),V_random,'r', label='random policy')
+	# plt.plot(range(0,201),V_greedy,'g', label='greedy policy')
+	plt.plot(range(0,201), V_t_enum_10, 'g', label='enumeration result(T=10)')
+	plt.plot(range(0,201), V_t_enum_100, 'g', label='enumeration result(T=100)')
+	plt.plot(range(0,201), V_t, 'b', label='value iteration result')
+	plt.legend()
+	plt.savefig('./shuttle_dispatch/plots/compare_valueiteration_enumeration.png')
