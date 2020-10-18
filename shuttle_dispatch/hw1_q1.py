@@ -173,7 +173,8 @@ def policy_eval_function(policy, cf, ch, gamma, max_cust_wating, theta):
 				fr_per_action = expected_future_rewards_per_action(s, a, V, cf, ch, gamma)
 				# get expectation over actions (probability per action given by policy)
 				expected_future_rewards += policy[s][a] * fr_per_action
-			# Note: this gives the expected future rewards over all possibble actions under given policy and all posible next states
+			# Note: this gives the expected future rewards over all possibble actions under given policy and all
+			# posible next states
 			# compute delta across all states
 			delta = max(delta, np.abs(expected_future_rewards - V[s]))
 			#
@@ -203,7 +204,7 @@ def policy_improvement(cf, ch, gamma, max_cust_wating, theta):
 				# compute total expected future rewards (expectation over next states, over actions)
 				# policy[s][a] is the probability of choosing action a in state s
 				# here V is based on incumbent policy
-				fr_per_action += (1/5)*(reward_function(s, a, ch, cf)+ gamma*V[next_state])
+				fr_per_action += (1 / 5) * (reward_function(s, a, ch, cf) + gamma * V[next_state])
 			# 	fr_per_action += policy[s][a] * (1 / 5) * V[next_state]
 			# # discount the expected future reward
 			# # add the current reward, now we get the total expected future reward, per THIS action
@@ -214,10 +215,12 @@ def policy_improvement(cf, ch, gamma, max_cust_wating, theta):
 		return fr_per_state
 
 	# ============Policy improvement main loop========
-	# start with a random policy
-	policy = np.ones([max_cust_wating + 1, 2]) / 2
+	# start with a policy that always choose action 1
+	# policy = np.ones([max_cust_wating + 1, 2]) / 2
+	policy = np.ones((max_cust_wating + 1, 2))
+	policy[:,0]=0
 	#
-	iter =0
+	iter = 0
 	while True:
 		print("Iteration: %d" % iter)
 		# evaluate current policy, V is vector with length - number of possible states
@@ -250,33 +253,34 @@ def policy_improvement(cf, ch, gamma, max_cust_wating, theta):
 			return policy, V
 
 
-
-
 if __name__ == "__main__":
-	# V_t_enum_50 = enumeration(T=10, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
-	# # # print(V_t)
-	V_t_enum_10 = enumeration(T=10, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
-	V_t_enum_100 = enumeration(T=100, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
-	V_t,iter = value_iteration(cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
-	# print(V_t)
-	# print("Number of iterations for value iteration to converge:")
-	# print(iter)
-	# plt.plot(range(0,201),V_t_enum_50,'g')
-	# plt.plot(range(0,201),V_t,'b')
-	# plt.show()
-	max_cust_wating = 200
-	policy_random = np.ones([max_cust_wating + 1, 2]) / 2
 
-	# evaluate V of random policy
-
-	# policy_improved, V_greedy = policy_improvement(cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
-	# #
-	# V_random = policy_eval_function(policy=policy_random,cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
-	#
-	# plt.plot(range(0,201),V_random,'r', label='random policy')
-	# plt.plot(range(0,201),V_greedy,'g', label='greedy policy')
-	plt.plot(range(0,201), V_t_enum_10, 'g', label='enumeration result(T=10)')
-	plt.plot(range(0,201), V_t_enum_100, 'g', label='enumeration result(T=100)')
-	plt.plot(range(0,201), V_t, 'b', label='value iteration result')
+	# =================
+	# Question 1a: plot value function from enumeration and value iteration
+	# V_t_enum_10 = enumeration(T=10, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
+	# V_t_enum_50 = enumeration(T=50, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
+	V_t_enum_500 = enumeration(T=500, cf=100, ch=2, gamma=0.95, max_cust_wating=200)
+	plt.plot(range(0,201), V_t_enum_500, 'g', label='Value function at Time 0 from enumeration (T=500)')
 	plt.legend()
-	plt.savefig('./shuttle_dispatch/plots/compare_valueiteration_enumeration.png')
+	plt.savefig('./shuttle_dispatch/plots/1a_valuefunction_enumeraion_time0.png')
+
+	## ============ 1(b)
+	# plot optimum value function from value iteration
+	V_t, iter = value_iteration(cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
+	plt.plot(range(0, 201), V_t, 'b', label='optimum value function from value iteration')
+	plt.legend()
+	plt.savefig('./shuttle_dispatch/plots/1b_valuefunction_value_iteration.png')
+
+	## ==================
+	# Question 1(c): plot optimum policy from policy iteration
+	policy_improved, V = policy_improvement(cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
+	# V_greedy = policy_eval_function(policy=policy_improved, cf=100, ch=2, gamma=0.95, max_cust_wating=200, theta=0.00001)
+	# plt.plot(range(0,201),V_greedy,'g', label='greedy policy')
+	# plt.legend()
+	# plt.savefig('./shuttle_dispatch/plots/valua_functions_greedy_vs_valueiter.png')
+	# ======================
+	# transform policy
+	transformed_policy = policy_improved.argmax(axis=1)
+	plt.plot(range(0,201),transformed_policy,label='Greedy Policy')
+	plt.legend()
+	plt.savefig('./shuttle_dispatch/plots/1c_greedy_policy.png')
