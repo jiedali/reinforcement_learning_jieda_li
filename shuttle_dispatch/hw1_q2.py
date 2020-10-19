@@ -66,7 +66,7 @@ def get_next_state(s, a, arriving_customer,max_cust_waiting):
 	return next_state
 
 
-def expected_future_rewards_per_action(s, a, Vtplus1, cf, ch, gamma, max_cust_waiting):
+def expected_future_rewards_per_action(iter, s, a, Vtplus1, cf, ch, gamma, max_cust_waiting):
 	"""
 	This function computes the expected total rewards per specified action
 	(at each time point, arrived customer number follow a distribution, uniform [1,5])
@@ -93,13 +93,13 @@ def expected_future_rewards_per_action(s, a, Vtplus1, cf, ch, gamma, max_cust_wa
 
 	# This is just to locate next_state in current vector representation of value function
 	# The index is done following how state is looped, start from S_1 in range(0,101).. most inner loop s_5
-	index_for_next_state_in_value_vector = next_state[0] * (max_cust_waiting ** 4) + \
-	                                       next_state[1] * (max_cust_waiting ** 3) + \
-	                                       next_state[2] * (max_cust_waiting ** 2) + \
-	                                       next_state[3] * (max_cust_waiting ** 1) + \
-	                                       next_state[4]
+	# index_for_next_state_in_value_vector = next_state[0] * (max_cust_waiting ** 4) + \
+	#                                        next_state[1] * (max_cust_waiting ** 3) + \
+	#                                        next_state[2] * (max_cust_waiting ** 2) + \
+	#                                        next_state[3] * (max_cust_waiting ** 1) + \
+	#                                        next_state[4]
 
-	fr_per_action = Vtplus1[index_for_next_state_in_value_vector]
+	fr_per_action = Vtplus1[iter]
 	# discount the expected future reward
 	# add the current reward, now we get the total expected future reward, per THIS action
 	fr_per_action = reward_function(s, a, ch, cf) + gamma * fr_per_action
@@ -139,8 +139,7 @@ def enumeration(T, cf, ch, gamma, max_cust_wating):
 							for a in [0, 1]:
 								# compute the expected future rewards per action (expectation over next states is
 								# replaced by sampling)
-								fr_per_action = expected_future_rewards_per_action(s, a, V_tplus1, cf, ch, gamma,
-								                                                   max_cust_wating)
+								fr_per_action = expected_future_rewards_per_action(iter, s, a, V_tplus1, cf, ch, gamma, max_cust_wating)
 								# print("action: %d" % a)
 								# print("future reward per action %d" % fr_per_action)
 								# get max future rewards
@@ -159,7 +158,7 @@ def value_iteration(cf, ch, gamma, max_cust_wating, theta):
 	V_t = np.zeros((max_cust_wating + 1) ** 5)
 	V_tplus1 = np.zeros((max_cust_wating + 1) ** 5)
 	# keep track of how many iterations
-
+	T=0
 	while True:
 		# for all possible states (possible number of customers at station is 0 ~ 200)
 		delta = 0
@@ -176,8 +175,7 @@ def value_iteration(cf, ch, gamma, max_cust_wating, theta):
 							# for all possible actions (only two, 1, dispatch a shuttle; 0, not dispatch a shuttle)
 							for a in [0, 1]:
 								# compute the expected future rewards per action (expectation over next states)
-								fr_per_action = expected_future_rewards_per_action(s, a, V_tplus1, cf, ch, gamma,
-								                                                   max_cust_wating)
+								fr_per_action = expected_future_rewards_per_action(iter, s, a, V_tplus1, cf, ch, gamma, max_cust_wating)
 								# print("action: %d" % a)
 								# print("future reward per action %d" % fr_per_action)
 								# get max future rewards
@@ -189,38 +187,129 @@ def value_iteration(cf, ch, gamma, max_cust_wating, theta):
 							iter += 1
 						# copy V_t to V_tplus1, to be used for next iteration
 		V_tplus1 = V_t.copy()
+		T+=1
+		print("current value of delta: %f" % delta)
+		# print("current iter value: %d" % iter)
+		# print("Moved to next iteration: T %d" % T)
 		if delta < theta:
 			break
 
-	return V_t, iter
+	return V_t, T
+
+
+def policy_eval_function(policy, cf, ch, gamma, max_cust_wating, theta):
+	"""
+	This function evaluates a policy value iteratively
+
+	:param policy: n_states * n_action matrix, the policy to be evaluated
+	:param cf:the cost of dispatching a shuttle
+	:param ch:the cost per customer left wating per time period
+	:param gamma:discount factor of future rewards
+	:param max_cust_wating: maximum number of customer waiting (total states = max_cust_wating+1)
+	:param theta: threshold for convergence 0.00001
+	:return: V: value of the policy
+	"""
+	# total number states is (max_cust_wating + 1) ** 5
+	V =np.zeros((max_cust_wating + 1) ** 5)
+	# initialize a policy (shape of the policy is num_states * num_actions)
+	# keep track of how many iterations
+	iter = 0
+	while True:
+		# for all possible states (possible number of customers at station is 0 ~ 200)
+		delta = 0
+		for s in range(0, max_cust_wating + 1):
+			# expected_future_rewards represents expected total rewards (over action/next state) under given state
+			expected_future_rewards = 0
+			# for all possible actions (only two, 1, dispatch a shuttle; 0, not dispatch a shuttle)
+			for a in [0, 1]:
+				# compute the expected future rewards per action (expectation over next states)
+				fr_per_action = expected_future_rewards_per_action(s, a, V, cf, ch, gamma)
+				# get expectation over actions (probability per action given by policy)
+				expected_future_rewards += policy[s][a] * fr_per_action
+			# Note: this gives the expected future rewards over all possibble actions under given policy and all
+			# posible next states
+			# compute delta across all states
+			delta = max(delta, np.abs(expected_future_rewards - V[s]))
+			#
+			V[s] = expected_future_rewards
+
+		# print("value of delta %f" % delta)
+		iter += 1
+
+		if delta < theta:
+			break
+
+	return V
+
+
+def policy_improvement(cf, ch, gamma, max_cust_wating, theta):
+
+	def expected_future_rewards_per_state(s, V, policy):
+
+		# fr_per_state is a vector of length(number_of_possible_actions)
+		fr_per_state = np.zeros(policy[s].shape)
+		# loop through all possible future states, get expected future rewards over possible next states
+		# for all possible actions [0,1]
+		for a in [0, 1]:
+			fr_per_action = 0
+			for arriving_customer in range(1, 6):
+				# First get next state
+				next_state = get_next_state(s, a, arriving_customer)
+				# compute total expected future rewards (expectation over next states, over actions)
+				# policy[s][a] is the probability of choosing action a in state s
+				# here V is based on incumbent policy
+				fr_per_action += (1 / 5) * (reward_function(s, a, ch, cf) + gamma * V[next_state])
+			# 	fr_per_action += policy[s][a] * (1 / 5) * V[next_state]
+			# # discount the expected future reward
+			# # add the current reward, now we get the total expected future reward, per THIS action
+			# fr_per_action = reward_function(s, a, ch, cf) + gamma * fr_per_action
+			# update the value for a particular action
+			fr_per_state[a] = fr_per_action
+		# returns a vector of values per state (each element being the value per action, per that state)
+		return fr_per_state
+
+	# ============Policy improvement main loop========
+	# start with a policy that always choose action 1
+	# policy = np.ones([max_cust_wating + 1, 2]) / 2
+	policy = np.ones((max_cust_wating + 1, 2))
+	policy[:,0]=0
+	#
+	iter = 0
+	while True:
+		print("Iteration: %d" % iter)
+		# evaluate current policy, V is vector with length - number of possible states
+		V = policy_eval_function(policy, cf, ch, gamma, max_cust_wating, theta)
+
+		# used to indicate if policy is converged
+		policy_stable = True
+
+		print("I am here!")
+		# for each state
+		for s in range(0, max_cust_wating + 1):
+			# current best action
+			chosen_action = np.argmax(policy[s])
+
+			# find the best action with respect to V_pi
+			action_values = expected_future_rewards_per_state(s, V, policy)
+			best_action = np.argmax(action_values)
+			# print("action_values, best_action, chosen action")
+			# print(action_values)
+			# print(best_action)
+			# print(chosen_action)
+			# greedily update the policy
+			if chosen_action != best_action:
+				policy_stable = False
+				policy[s] = np.eye(2)[best_action]
+		iter += 1
+
+		if policy_stable == True:
+			print("Second I am here!")
+			return policy, V
 
 if __name__ == "__main__":
 	# ============2 (a) Enumeration ==============
-	# max_cust_waiting = 6
-	# V_t= enumeration(T=10, cf=100, ch=np.array([1, 1.5, 2, 1.5, 3]), gamma=0.95, max_cust_wating=max_cust_waiting)
-	#
-	# # compute step size, in order to locate the values for each class of customer in value vector
-	# step_size_ch1 = (max_cust_waiting+1)**4
-	# step_size_ch1p5 = (max_cust_waiting + 1) ** 3
-	# step_size_ch2 = (max_cust_waiting + 1) ** 2
-	# step_size_ch2p5 = (max_cust_waiting + 1) ** 1
-	# #
-	# V_t_ch1 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch1, step_size_ch1)]
-	# V_t_ch1p5 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch1p5, step_size_ch1p5)]
-	# V_t_ch2 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch2, step_size_ch2)]
-	# V_t_ch2p5 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch2p5, step_size_ch2p5)]
-	# plt.plot(range(0, max_cust_waiting+1),V_t_ch1, 'b', label='T=100, max_cust_waiting=20, for ch=1')
-	# plt.plot(range(0, max_cust_waiting + 1), V_t_ch1p5, 'r',label='T=100, max_cust_waiting=20, for ch=1p5')
-	# plt.plot(range(0, max_cust_waiting + 1), V_t_ch2, 'g',label='T=100, max_cust_waiting=20, for ch=2')
-	# plt.plot(range(0, max_cust_waiting + 1), V_t_ch2p5, 'y',label='T=100, max_cust_waiting=20, for ch=2p5')
-	# plt.plot(range(0, max_cust_waiting + 1), V_t[0:max_cust_waiting + 1], 'm',label='T=100, max_cust_waiting=20, for ch=3')
-	# plt.legend()
-	# plt.savefig('./shuttle_dispatch/plots/2a_value_function_debugrun.png')
-
-	# ============2 (b) Value iteration ==============
-
-	max_cust_waiting = 6
-	V_t, iter = value_iteration(cf=100, ch=np.array([1, 1.5, 2, 1.5, 3]), gamma=0.95, max_cust_wating=max_cust_waiting,theta=0.01)
+	max_cust_waiting = 10
+	V_t= enumeration(T=100, cf=100, ch=np.array([1, 1.5, 2, 1.5, 3]), gamma=0.95, max_cust_wating=max_cust_waiting)
 
 	# compute step size, in order to locate the values for each class of customer in value vector
 	step_size_ch1 = (max_cust_waiting+1)**4
@@ -232,13 +321,38 @@ if __name__ == "__main__":
 	V_t_ch1p5 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch1p5, step_size_ch1p5)]
 	V_t_ch2 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch2, step_size_ch2)]
 	V_t_ch2p5 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch2p5, step_size_ch2p5)]
-	plt.plot(range(0, max_cust_waiting+1),V_t_ch1, 'b', label='max_cust_waiting=20, for ch=1')
-	plt.plot(range(0, max_cust_waiting + 1), V_t_ch1p5, 'r',label='max_cust_waiting=20, for ch=1p5')
-	plt.plot(range(0, max_cust_waiting + 1), V_t_ch2, 'g',label='max_cust_waiting=20, for ch=2')
-	plt.plot(range(0, max_cust_waiting + 1), V_t_ch2p5, 'y',label='max_cust_waiting=20, for ch=2p5')
-	plt.plot(range(0, max_cust_waiting + 1), V_t[0:max_cust_waiting + 1], 'm',label='max_cust_waiting=20, for ch=3')
+	plt.plot(range(0, max_cust_waiting+1),V_t_ch1, 'b', label='T=100, max_cust_waiting=20, for ch=1')
+	plt.plot(range(0, max_cust_waiting + 1), V_t_ch1p5, 'r',label='T=100, max_cust_waiting=20, for ch=1p5')
+	plt.plot(range(0, max_cust_waiting + 1), V_t_ch2, 'g',label='T=100, max_cust_waiting=20, for ch=2')
+	plt.plot(range(0, max_cust_waiting + 1), V_t_ch2p5, 'y',label='T=100, max_cust_waiting=20, for ch=2p5')
+	plt.plot(range(0, max_cust_waiting + 1), V_t[0:max_cust_waiting + 1], 'm',label='T=100, max_cust_waiting=20, for ch=3')
 	plt.legend()
-	plt.savefig('./shuttle_dispatch/plots/2b_value_iteration.png')
+	plt.savefig('./shuttle_dispatch/plots/2a_value_function_debugrun.png')
+
+	# ============2(b) Value iteration ==============
+
+	# max_cust_waiting = 10
+	# V_t, T = value_iteration(cf=100, ch=np.array([1, 1.5, 2, 1.5, 3]), gamma=0.95, max_cust_wating=max_cust_waiting,theta=0.1)
+	#
+	# # compute step size, in order to locate the values for each class of customer in value vector
+	# step_size_ch1 = (max_cust_waiting+1)**4
+	# step_size_ch1p5 = (max_cust_waiting + 1) ** 3
+	# step_size_ch2 = (max_cust_waiting + 1) ** 2
+	# step_size_ch2p5 = (max_cust_waiting + 1) ** 1
+	# #
+	# V_t_ch1 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch1, step_size_ch1)]
+	# V_t_ch1p5 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch1p5, step_size_ch1p5)]
+	# V_t_ch2 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch2, step_size_ch2)]
+	# V_t_ch2p5 = [V_t[i] for i in range(0, (max_cust_waiting+1)*step_size_ch2p5, step_size_ch2p5)]
+	# plt.plot(range(0, max_cust_waiting+1),V_t_ch1, 'b', label='max_cust_waiting=20, for ch=1')
+	# plt.plot(range(0, max_cust_waiting + 1), V_t_ch1p5, 'r',label='max_cust_waiting=20, for ch=1p5')
+	# plt.plot(range(0, max_cust_waiting + 1), V_t_ch2, 'g',label='max_cust_waiting=20, for ch=2')
+	# plt.plot(range(0, max_cust_waiting + 1), V_t_ch2p5, 'y',label='max_cust_waiting=20, for ch=2p5')
+	# plt.plot(range(0, max_cust_waiting + 1), V_t[0:max_cust_waiting + 1], 'm',label='max_cust_waiting=20, for ch=3')
+	# plt.legend()
+	# plt.savefig('./shuttle_dispatch/plots/2b_value_iteration.png')
+
+	#
 
 
 
