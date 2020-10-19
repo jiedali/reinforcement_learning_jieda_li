@@ -229,7 +229,6 @@ def policy_improvement(cf, ch, gamma, max_cust_wating, theta):
 		# used to indicate if policy is converged
 		policy_stable = True
 
-		print("I am here!")
 		# for each state
 		for s in range(0, max_cust_wating + 1):
 			# current best action
@@ -249,7 +248,7 @@ def policy_improvement(cf, ch, gamma, max_cust_wating, theta):
 		iter += 1
 
 		if policy_stable == True:
-			print("Second I am here!")
+			print("The algorithm is converged.")
 			return policy, V
 
 
