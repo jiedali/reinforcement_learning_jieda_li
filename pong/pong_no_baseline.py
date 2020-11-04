@@ -66,8 +66,7 @@ class PolicyNetwork(object):
 
 			with tf.name_scope("conv1"):
 				self.conv1 = tf.layers.conv1d(inputs=self.inputs, filters=32, kernel_size=8, strides=4,
-				                              padding="VALID", \
-				                              kernel_initializer=tf.contrib.layers.xavier_initializer_conv2d(),
+				                              padding="VALID",kernel_initializer=tf.contrib.layers.xavier_initializer_conv2d(),
 				                              name="conv1")
 
 				self.conv1_batchnorm = tf.layers.batch_normalization(self.conv1,
@@ -288,8 +287,7 @@ if __name__ =="__main__":
 		print("Max reward for a batch so far: {}".format(maximumRewardRecorded))
 
 		# feedforward, gradient and backprop
-        loss_,_ = sess.run([PolicyNetwork.loss,PolicyNetwork.train_opt], \
-                feed_dict={PolicyNetwork.inputs: states_mb, PolicyNetwork.actions: actions_mb, PolicyNetwork.discounted_episode_rewards: discounted_rewards_mb})
+        loss_,_ = sess.run([PolicyNetwork.loss,PolicyNetwork.train_opt], feed_dict={PolicyNetwork.inputs: states_mb, PolicyNetwork.actions: actions_mb, PolicyNetwork.discounted_episode_rewards: discounted_rewards_mb})
 
 		# update epoch
         epoch +=1
