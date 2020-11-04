@@ -265,20 +265,19 @@ if __name__ =="__main__":
 
 
 	while epoch < num_epochs +1:
+
 		states_mb, actions_mb, rewards_of_batch, discounted_rewards_mb, nb_episodes_mb = make_batch(1000)
 		# total rewards of the batch
-        total_reward_of_that_batch = np.sum(rewards_of_batch)
+		total_reward_of_that_batch = np.sum(rewards_of_batch)
 		allRewards.append(total_reward_of_that_batch)
-
 		# calculate the mean reward of the batch
-        mean_reward_of_that_batch = np.divide(total_reward_of_that_batch, nb_episodes_mb)
+		mean_reward_of_that_batch = np.divide(total_reward_of_that_batch, nb_episodes_mb)
 		mean_reward_total.append(mean_reward_of_that_batch)
 
 		# calculate the average reward of all training
         average_reward_of_all_training = np.divide(np.sum(mean_reward_total), epoch)
-
-		# maximum reward recorded
-        max_reward_recorded = np.amax(allRewards)
+		#
+		max_reward_recorded = np.amax(allRewards)
 
 		print("===============================")
 		print("Epoch: ", epoch, "/", num_epochs)
