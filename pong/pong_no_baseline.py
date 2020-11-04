@@ -275,9 +275,9 @@ if __name__ =="__main__":
 		mean_reward_total.append(mean_reward_of_that_batch)
 
 		# calculate the average reward of all training
-        average_reward_of_all_training = np.divide(np.sum(mean_reward_total), epoch)
-		#
+		average_reward_of_all_training = np.divide(np.sum(mean_reward_total), epoch)
 		max_reward_recorded = np.amax(allRewards)
+
 
 		print("===============================")
 		print("Epoch: ", epoch, "/", num_epochs)
