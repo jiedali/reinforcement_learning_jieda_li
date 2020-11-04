@@ -287,10 +287,9 @@ if __name__ =="__main__":
 		print("Max reward for a batch so far: {}".format(maximumRewardRecorded))
 
 		# feedforward, gradient and backprop
-        loss_,_ = sess.run([PolicyNetwork.loss,PolicyNetwork.train_opt], feed_dict={PolicyNetwork.inputs: states_mb, PolicyNetwork.actions: actions_mb, PolicyNetwork.discounted_episode_rewards: discounted_rewards_mb})
-
+		loss_,_ = sess.run([PolicyNetwork.loss,PolicyNetwork.train_opt], feed_dict={PolicyNetwork.inputs: states_mb, PolicyNetwork.actions: actions_mb, PolicyNetwork.discounted_episode_rewards: discounted_rewards_mb})
 		# update epoch
-        epoch +=1
+		epoch +=1
 
 	# plot the average episode reward vs epoch
 	# episode reward is the total undiscounted reward for an episode
