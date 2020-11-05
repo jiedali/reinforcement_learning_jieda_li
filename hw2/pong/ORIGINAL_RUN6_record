@@ -1,0 +1,3318 @@
+===============================
+Epoch:  1 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -21.0
+Max reward for a batch so far: -21.0
+===============================
+Epoch:  2 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -21.0
+Max reward for a batch so far: -21.0
+===============================
+Epoch:  3 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -21.0
+Max reward for a batch so far: -21.0
+===============================
+Epoch:  4 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -21.0
+Max reward for a batch so far: -21.0
+===============================
+Epoch:  5 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -21.0
+Max reward for a batch so far: -21.0
+===============================
+Epoch:  6 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.833333333333332
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  7 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.857142857142858
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  8 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.875
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  9 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.77777777777778
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  10 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.8
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  11 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.818181818181817
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  12 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.833333333333332
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  13 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.76923076923077
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  14 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.785714285714285
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  15 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.8
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  16 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.8125
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  17 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.823529411764707
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  18 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.77777777777778
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  19 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.789473684210527
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  20 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.8
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  21 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.80952380952381
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  22 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.818181818181817
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  23 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.82608695652174
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  24 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.833333333333332
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  25 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.84
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  26 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.846153846153847
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  27 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.85185185185185
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  28 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.857142857142858
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  29 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.862068965517242
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  30 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.866666666666667
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  31 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.870967741935484
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  32 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.875
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  33 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.87878787878788
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  34 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.88235294117647
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  35 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.885714285714286
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  36 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.88888888888889
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  37 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.89189189189189
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  38 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.894736842105264
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  39 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.897435897435898
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  40 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.9
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  41 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.902439024390244
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  42 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.904761904761905
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  43 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.906976744186046
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  44 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.886363636363637
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  45 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.88888888888889
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  46 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.891304347826086
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  47 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.893617021276597
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  48 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.895833333333332
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  49 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.897959183673468
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  50 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.9
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  51 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.901960784313726
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  52 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.903846153846153
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  53 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.90566037735849
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  54 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.90740740740741
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  55 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.89090909090909
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  56 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.892857142857142
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  57 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.894736842105264
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  58 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.896551724137932
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  59 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.89830508474576
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  60 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.9
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  61 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.901639344262296
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  62 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.903225806451612
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  63 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.904761904761905
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  64 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.90625
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  65 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.907692307692308
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  66 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.90909090909091
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  67 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91044776119403
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  68 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91176470588235
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  69 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91304347826087
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  70 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.914285714285715
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  71 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91549295774648
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  72 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.916666666666668
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  73 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91780821917808
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  74 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91891891891892
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  75 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.92
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  76 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.92105263157895
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  77 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.92207792207792
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  78 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.91025641025641
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  79 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.911392405063292
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  80 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.9125
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  81 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91358024691358
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  82 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.914634146341463
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  83 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.903614457831324
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  84 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.904761904761905
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  85 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.905882352941177
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  86 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.906976744186046
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  87 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.908045977011493
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  88 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.90909090909091
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  89 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.910112359550563
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  90 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91111111111111
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  91 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.912087912087912
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  92 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91304347826087
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  93 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.913978494623656
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  94 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.914893617021278
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  95 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.91578947368421
+Max reward for a batch so far: -20.0
+===============================
+Epoch:  96 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.895833333333332
+Max reward for a batch so far: -19.0
+===============================
+Epoch:  97 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.896907216494846
+Max reward for a batch so far: -19.0
+===============================
+Epoch:  98 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.897959183673468
+Max reward for a batch so far: -19.0
+===============================
+Epoch:  99 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.87878787878788
+Max reward for a batch so far: -19.0
+===============================
+Epoch:  100 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.87
+Max reward for a batch so far: -19.0
+===============================
+Epoch:  101 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.84158415841584
+Max reward for a batch so far: -18.0
+===============================
+Epoch:  102 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.813725490196077
+Max reward for a batch so far: -18.0
+===============================
+Epoch:  103 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.805825242718445
+Max reward for a batch so far: -18.0
+===============================
+Epoch:  104 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.807692307692307
+Max reward for a batch so far: -18.0
+===============================
+Epoch:  105 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.80952380952381
+Max reward for a batch so far: -18.0
+===============================
+Epoch:  106 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -20.754716981132077
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  107 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.757009345794394
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  108 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.75925925925926
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  109 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.743119266055047
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  110 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.727272727272727
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  111 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.72072072072072
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  112 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.705357142857142
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  113 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.699115044247787
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  114 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.666666666666668
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  115 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.660869565217393
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  116 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.663793103448278
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  117 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.64957264957265
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  118 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.635593220338983
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  119 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.638655462184875
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  120 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.625
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  121 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.611570247933884
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  122 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.598360655737704
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  123 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.585365853658537
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  124 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.572580645161292
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  125 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.576
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  126 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.563492063492063
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  127 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.566929133858267
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  128 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.5546875
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  129 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.558139534883722
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  130 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.553846153846155
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  131 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.557251908396946
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  132 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.53030303030303
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  133 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.51127819548872
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  134 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.492537313432837
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  135 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.474074074074075
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  136 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -20.433823529411764
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  137 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.423357664233578
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  138 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.42753623188406
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  139 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.431654676258994
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  140 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.435714285714287
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  141 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.43262411347518
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  142 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.408450704225352
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  143 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.39160839160839
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  144 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.381944444444443
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  145 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.36551724137931
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  146 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -20.335616438356166
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  147 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.3265306122449
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  148 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.304054054054053
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  149 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.308724832214764
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  150 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.3
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  151 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.29139072847682
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  152 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.29605263157895
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  153 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.30065359477124
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  154 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.305194805194805
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  155 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.296774193548387
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  156 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.30128205128205
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  157 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.305732484076433
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  158 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.303797468354432
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  159 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.30817610062893
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  160 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.30625
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  161 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.29813664596273
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  162 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.290123456790123
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  163 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.29447852760736
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  164 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.298780487804876
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  165 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.29090909090909
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  166 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.271084337349397
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  167 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.275449101796408
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  168 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.279761904761905
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  169 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.284023668639055
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  170 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.288235294117648
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  171 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.28654970760234
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  172 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.290697674418606
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  173 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.294797687861273
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  174 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.298850574712645
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  175 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.302857142857142
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  176 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.295454545454547
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  177 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.29943502824859
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  178 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.292134831460675
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  179 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.29050279329609
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  180 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.294444444444444
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  181 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.287292817679557
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  182 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -20.25824175824176
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  183 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.262295081967213
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  184 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.26086956521739
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  185 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.243243243243242
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  186 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.241935483870968
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  187 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.235294117647058
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  188 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.22872340425532
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  189 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.22222222222222
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  190 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.221052631578946
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  191 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.225130890052355
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  192 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.223958333333332
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  193 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.2279792746114
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  194 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.221649484536083
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  195 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.205128205128204
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  196 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.20408163265306
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  197 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.20812182741117
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  198 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.21212121212121
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  199 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.21105527638191
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  200 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.205
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  201 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.208955223880597
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  202 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.212871287128714
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  203 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.216748768472907
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  204 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.215686274509803
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  205 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.204878048780486
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  206 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.203883495145632
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  207 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.207729468599034
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  208 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.21153846153846
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  209 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.20095693779904
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  210 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.204761904761906
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  211 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.19905213270142
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  212 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.193396226415093
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  213 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.197183098591548
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  214 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.200934579439252
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  215 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.195348837209302
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  216 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.199074074074073
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  217 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.18433179723502
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  218 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.18807339449541
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  219 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.19178082191781
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  220 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.181818181818183
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  221 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.18552036199095
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  222 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.18018018018018
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  223 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.183856502242154
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  224 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.1875
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  225 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.191111111111113
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  226 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.194690265486727
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  227 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.18942731277533
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  228 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.17543859649123
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  229 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.179039301310045
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  230 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.17391304347826
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  231 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.16883116883117
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  232 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.17241379310345
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  233 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.175965665236053
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  234 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.17094017094017
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  235 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.174468085106383
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  236 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.173728813559322
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  237 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.17721518987342
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  238 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.180672268907564
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  239 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.184100418410043
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  240 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.183333333333334
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  241 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.186721991701244
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  242 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.173553719008265
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  243 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.17695473251029
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  244 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.18032786885246
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  245 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.179591836734694
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  246 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.182926829268293
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  247 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.186234817813766
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  248 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.18951612903226
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  249 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.184738955823292
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  250 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.188
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  251 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.191235059760956
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  252 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.194444444444443
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  253 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.181818181818183
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  254 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.177165354330707
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  255 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.172549019607843
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  256 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.16796875
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  257 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.155642023346303
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  258 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.15891472868217
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  259 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.158301158301157
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  260 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.157692307692308
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  261 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.153256704980844
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  262 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.14885496183206
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  263 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.14448669201521
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  264 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.140151515151516
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  265 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.135849056603774
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  266 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.139097744360903
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  267 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.142322097378276
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  268 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.145522388059703
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  269 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.148698884758364
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  270 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.151851851851852
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  271 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.1549815498155
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  272 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.15073529411765
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  273 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.153846153846153
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  274 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.14963503649635
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  275 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.152727272727272
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  276 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.14855072463768
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  277 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.137184115523464
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  278 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.12589928057554
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  279 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.129032258064516
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  280 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.12857142857143
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  281 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.12455516014235
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  282 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.124113475177303
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  283 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.11660777385159
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  284 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.1056338028169
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  285 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.094736842105263
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  286 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -20.083916083916083
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  287 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -20.069686411149824
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  288 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.0625
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  289 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.058823529411764
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  290 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.05862068965517
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  291 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.054982817869416
+Max reward for a batch so far: -15.0
+===============================
+Epoch:  292 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -20.03082191780822
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  293 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.03071672354949
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  294 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -20.023809523809526
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  295 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.027118644067798
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  296 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.02364864864865
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  297 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.02020202020202
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  298 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.016778523489933
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  299 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.013377926421406
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  300 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.016666666666666
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  301 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -20.01328903654485
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  302 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -20.016556291390728
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  303 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -20.016501650165015
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  304 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -20.00328947368421
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  305 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.996721311475408
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  306 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.973856209150327
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  307 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.977198697068403
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  308 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.974025974025974
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  309 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.97087378640777
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  310 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.961290322580645
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  311 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.958199356913184
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  312 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.951923076923077
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  313 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.955271565495206
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  314 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -19.955414012738853
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  315 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.946031746031746
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  316 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.930379746835442
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  317 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.90851735015773
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  318 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.90566037735849
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  319 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.90282131661442
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  320 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.9
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  321 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.884735202492212
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  322 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.888198757763973
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  323 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.879256965944272
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  324 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.873456790123456
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  325 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.852307692307694
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  326 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.84355828220859
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  327 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.837920489296636
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  328 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -19.838414634146343
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  329 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.8419452887538
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  330 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.83939393939394
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  331 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.827794561933533
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  332 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.83132530120482
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  333 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.82882882882883
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  334 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.820359281437124
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  335 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.8
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  336 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.791666666666668
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  337 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.777448071216618
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  338 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.766272189349113
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  339 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.75811209439528
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  340 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.761764705882353
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  341 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.765395894428153
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  342 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.769005847953217
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  343 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.760932944606413
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  344 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.75872093023256
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  345 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.756521739130434
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  346 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.754335260115607
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  347 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.746397694524497
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  348 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.738505747126435
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  349 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.730659025787965
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  350 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.722857142857144
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  351 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.715099715099715
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  352 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.713068181818183
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  353 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.711048158640228
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  354 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.703389830508474
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  355 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.695774647887323
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  356 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.68820224719101
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  357 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.675070028011206
+Max reward for a batch so far: -13.0
+===============================
+Epoch:  358 / 5000
+Number of training episodes: 1
+Total reward: -12.0
+Mean Reward of that batch -12.0
+Average Reward of all training: -19.6536312849162
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  359 / 5000
+Number of training episodes: 1
+Total reward: -12.0
+Mean Reward of that batch -12.0
+Average Reward of all training: -19.632311977715876
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  360 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.636111111111113
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  361 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.62326869806094
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  362 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.62707182320442
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  363 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.62534435261708
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  364 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.62087912087912
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  365 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.613698630136987
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  366 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.617486338797814
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  367 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.61307901907357
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  368 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.61141304347826
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  369 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.609756097560975
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  370 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.602702702702704
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  371 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.606469002695416
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  372 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.60483870967742
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  373 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.603217158176943
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  374 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.59090909090909
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  375 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.589333333333332
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  376 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.58776595744681
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  377 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.580901856763926
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  378 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.576719576719576
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  379 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.575197889182057
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  380 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.568421052631578
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  381 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.566929133858267
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  382 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.554973821989527
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  383 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.54308093994778
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  384 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.536458333333332
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  385 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.524675324675325
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  386 / 5000
+Number of training episodes: 1
+Total reward: -14.0
+Mean Reward of that batch -14.0
+Average Reward of all training: -19.510362694300518
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  387 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.503875968992247
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  388 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.507731958762886
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  389 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.511568123393317
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  390 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.51025641025641
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  391 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.508951406649615
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  392 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.492346938775512
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  393 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.48854961832061
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  394 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.482233502538072
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  395 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.481012658227847
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  396 / 5000
+Number of training episodes: 1
+Total reward: -14.0
+Mean Reward of that batch -14.0
+Average Reward of all training: -19.467171717171716
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  397 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.463476070528966
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  398 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.462311557788944
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  399 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.461152882205514
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  400 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.46
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  401 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.456359102244388
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  402 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.44776119402985
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  403 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.44665012406948
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  404 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.435643564356436
+Max reward for a batch so far: -12.0
+===============================
+Epoch:  405 / 5000
+Number of training episodes: 1
+Total reward: -11.0
+Mean Reward of that batch -11.0
+Average Reward of all training: -19.414814814814815
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  406 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.399014778325125
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  407 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.388206388206388
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  408 / 5000
+Number of training episodes: 1
+Total reward: -14.0
+Mean Reward of that batch -14.0
+Average Reward of all training: -19.375
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  409 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.366748166259168
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  410 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.360975609756096
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  411 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.364963503649633
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  412 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.359223300970875
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  413 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.343825665859566
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  414 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.333333333333332
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  415 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.32289156626506
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  416 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.314903846153847
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  417 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.304556354916066
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  418 / 5000
+Number of training episodes: 1
+Total reward: -21.0
+Mean Reward of that batch -21.0
+Average Reward of all training: -19.30861244019139
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  419 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.29832935560859
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  420 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.292857142857144
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  421 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.292161520190025
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  422 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.291469194312796
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  423 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.28132387706856
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  424 / 5000
+Number of training episodes: 1
+Total reward: -12.0
+Mean Reward of that batch -12.0
+Average Reward of all training: -19.264150943396228
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  425 / 5000
+Number of training episodes: 1
+Total reward: -11.0
+Mean Reward of that batch -11.0
+Average Reward of all training: -19.244705882352942
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  426 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.239436619718308
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  427 / 5000
+Number of training episodes: 1
+Total reward: -14.0
+Mean Reward of that batch -14.0
+Average Reward of all training: -19.227166276346605
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  428 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.22196261682243
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  429 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.221445221445222
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  430 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.206976744186047
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  431 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.201856148491878
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  432 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.194444444444443
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  433 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.18013856812933
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  434 / 5000
+Number of training episodes: 1
+Total reward: -14.0
+Mean Reward of that batch -14.0
+Average Reward of all training: -19.168202764976957
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  435 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.167816091954023
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  436 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.165137614678898
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  437 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.160183066361554
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  438 / 5000
+Number of training episodes: 1
+Total reward: -18.0
+Mean Reward of that batch -18.0
+Average Reward of all training: -19.15753424657534
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  439 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.15261958997722
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  440 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.152272727272727
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  441 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.145124716553287
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  442 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.131221719457013
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  443 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.126410835214447
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  444 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.12162162162162
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  445 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.11685393258427
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  446 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.112107623318387
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  447 / 5000
+Number of training episodes: 1
+Total reward: -14.0
+Mean Reward of that batch -14.0
+Average Reward of all training: -19.100671140939596
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  448 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.09375
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  449 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.080178173719375
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  450 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -19.073333333333334
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  451 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.068736141906875
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  452 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.059734513274336
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  453 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.055187637969095
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  454 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.050660792951543
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  455 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.05054945054945
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  456 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -19.04605263157895
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  457 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -19.045951859956237
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  458 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.03711790393013
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  459 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -19.028322440087145
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  460 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -19.015217391304347
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  461 / 5000
+Number of training episodes: 1
+Total reward: -12.0
+Mean Reward of that batch -12.0
+Average Reward of all training: -19.0
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  462 / 5000
+Number of training episodes: 1
+Total reward: -13.0
+Mean Reward of that batch -13.0
+Average Reward of all training: -18.98701298701299
+Max reward for a batch so far: -11.0
+===============================
+Epoch:  463 / 5000
+Number of training episodes: 1
+Total reward: -10.0
+Mean Reward of that batch -10.0
+Average Reward of all training: -18.967602591792655
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  464 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -18.961206896551722
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  465 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -18.956989247311828
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  466 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -18.950643776824034
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  467 / 5000
+Number of training episodes: 1
+Total reward: -11.0
+Mean Reward of that batch -11.0
+Average Reward of all training: -18.933618843683085
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  468 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -18.92948717948718
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  469 / 5000
+Number of training episodes: 1
+Total reward: -20.0
+Mean Reward of that batch -20.0
+Average Reward of all training: -18.931769722814497
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  470 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -18.931914893617023
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  471 / 5000
+Number of training episodes: 1
+Total reward: -19.0
+Mean Reward of that batch -19.0
+Average Reward of all training: -18.932059447983015
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  472 / 5000
+Number of training episodes: 1
+Total reward: -16.0
+Mean Reward of that batch -16.0
+Average Reward of all training: -18.925847457627118
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  473 / 5000
+Number of training episodes: 1
+Total reward: -15.0
+Mean Reward of that batch -15.0
+Average Reward of all training: -18.917547568710358
+Max reward for a batch so far: -10.0
+===============================
+Epoch:  474 / 5000
+Number of training episodes: 1
+Total reward: -17.0
+Mean Reward of that batch -17.0
+Average Reward of all training: -18.91350210970464
+Max reward for a batch so far: -10.0
